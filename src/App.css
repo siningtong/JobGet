@@ -22,3 +22,55 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.title {
+  background-color: lightcyan;
+  display: flex; align-items: center;
+  padding: 10px;
+}
+.title_label {
+  text-align: right; width: 75px;
+  margin: 0; margin-top: auto; margin-bottom: auto; margin-right: 10px;
+}
+.title_label_tiny {
+  width: 75px;
+}
+.input_box {
+  width: 200px;
+  margin-right: 10px;
+}
+.submit_btn {
+  margin-left: 20px;
+}
+.list_group {
+  border-bottom-color: lightgray; border-bottom-style: solid; border-bottom-width: 1px;
+  margin: 10px; padding-bottom: 15px;
+}
+.list_item {
+  margin: 0;  padding: 0;
+  border: none;
+}
+.job_title {
+  font-weight: bold;
+  font-size: 22px;
+}
+.company_location {
+  color: darkgray;
+  font-size: 20px;
+}
+.description {
+  font-size: 18px;
+  margin-top: 10px
+;}
+.industry {
+  color: grey; font-size: 16px;
+  margin-top: 5px;
+}
+.page_group {
+  display: flex; align-items: center;
+  margin: 10px;
+}
+.page_btn {
+  width: 35px; height: 35px;
+  margin: 2px;
+}
