@@ -101,7 +101,7 @@ export default function SearchFrom() {
               <ListGroup.Item className="list_item job_title">{jobResult.name}</ListGroup.Item>
               <ListGroup.Item className="list_item company_location">{jobResult.hiring_company.name}</ListGroup.Item>
               <ListGroup.Item className="list_item company_location">{jobResult.location}</ListGroup.Item>
-              <ListGroup.Item className="list_item description">Description:<p>{jobResult.snippet}</p></ListGroup.Item>
+              <ListGroup.Item className="list_item description">Description:{jobResult.snippet}</ListGroup.Item>
               <ListGroup.Item className="list_item industry">Industry:{jobResult.industry_name}</ListGroup.Item>
             </ListGroup>
           )
